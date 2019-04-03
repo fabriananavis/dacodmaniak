@@ -18,3 +18,10 @@ print(resultat)
 """
 Fin de l'algorithme
 """
+if resultat > 0:
+    print ("Résultat positif")
+else:
+     print ("Résultat négatif")
+"""
+Fin de l'algorithme
+"""     
