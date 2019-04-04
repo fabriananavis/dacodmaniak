@@ -9,7 +9,8 @@ Operands and Operators, functions
 Add two operands and replace compute method
 """
 
-resutats = 0 # Definition de la variable
+resutats = 0 
+# Definition de la variable
 operands1 = -3
 operande2 = 2
 resultat = 2 + 2
