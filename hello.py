@@ -9,11 +9,13 @@ Operands and Operators, functions
 Add two operands and replace compute method
 """
 
-resutats = 0 
-# Definition de la variable
+def addition(operande1, operande2):
+    return operande1 + operande2
+
+resutats = 0 # Definition de la variable
 operands1 = -3
 operande2 = 2
-resultat = 2 + 2
+resultat = addition(5, 3) #call addition function with 5 and 3 as params
 print(resultat)
 
 """
@@ -21,7 +23,7 @@ Fin de l'algorithme
 """
 if resultat > 0:
     print ("Résultat positif")
-else:
+else: 
      print ("Résultat négatif")
 """
 Fin de l'algorithme
